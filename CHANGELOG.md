@@ -1,5 +1,5 @@
 # <img src="matterbridge.svg" alt="Matterbridge Logo" width="64px" height="64px">&nbsp;&nbsp;&nbsp;matterbridge-wyze-robovac
-
+ 
 ## [1.0.0] - 2025-11-22
 
 - First full release.
