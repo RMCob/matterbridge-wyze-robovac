@@ -1,7 +1,7 @@
 {
   "name": "matterbridge-wyze-robovac",
-  "version": "0.1.2",
-  "description": "Matterbridge dynamic plugin for Wyze RoboVac",
+  "version": "1.0.0",
+  "description": "Wyze RoboVac",
   "author": "https://github.com/RMCob",
   "license": "Apache-2.0",
   "homepage": "https://www.npmjs.com/package/matterbridge-wyze-robovac",
@@ -33,10 +33,14 @@
   },
   "scripts": {
     "lint": "eslint src/**.ts --max-warnings=0",
-    "build": "/bin/rm tsconfig.tsbuildinfo && rimraf ./dist && tsc",
+    "tsc": "tsc",
+    "build": "rimraf ./dist && tsc",
+    "cleanbuild": "/bin/rm -f tsconfig.tsbuildinfo && rimraf ./dist && npm ci && npm audit fix --force && /bin/rm -rf node_modules/matterbridge && npm link matterbridge && tsc",
     "prepublishOnly": "npm run lint && npm run build"
   },
   "dependencies": {
+    "jest": "^29.7.0",
+    "js-yaml": "^4.1.1",
     "node-ansi-logger": "3.1.1",
     "node-persist-manager": "2.0.0",
     "rimraf": "^6.1.0"
