@@ -2,7 +2,7 @@
  
 ## [1.0.0] - 2025-11-22
 
-- First full release.
+- First full release. 
 
 ### ** Changed **
 

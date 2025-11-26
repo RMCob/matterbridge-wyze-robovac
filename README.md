@@ -9,7 +9,7 @@
 
 Matterbridge plugin to control and report status of the Wyze S200 Robot Vacuum
 
-A Robot Vacuum Cleaner device (supported by SmartThings, Alexa, Home Assistant and partially by Apple Home). Read also https://github.com/Luligu/matterbridge/discussions/264.
+A Robot Vacuum Cleaner device (supported by SmartThings, Alexa, Home Assistant and partially by Apple Home). Read also https://github.com/Luligu/matterbridge/discussions/264. 
 
 If you like this project and find it useful, please consider giving it a star on GitHub at https://github.com/rmcob/matterbridge-wyze-robovac and sponsoring it.
 
