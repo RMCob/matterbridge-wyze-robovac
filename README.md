@@ -19,7 +19,7 @@ Python version must be >= 3.11.2.
 
 wyze-sdk version must be >= 2.2.0. Installation instructions are [here](https://github.com/shauntarves/wyze-sdk).
 
-matterbridge version must be >= 3.4.0 Installation instructions are [here](https://github.com/Luligu/matterbridge/blob/main/README.md).
+matterbridge version must be >= 3.4.0. Installation instructions are [here](https://github.com/Luligu/matterbridge/blob/main/README.md).
 
 Visit the Wyze developer API portal to generate an API ID/KEY: **https://developer-api-console.wyze.com/#/apikey/view**.
 This info is used in the Matterbridge Config settings for this plugin. See the **`Configuration`** section below. Be careful to check that the generated keys do **NOT** contain any 'shell' special characters like '*' or '|' (vertical bar). If they do, delete the keys (via the web browser interface) and regenerate them.
