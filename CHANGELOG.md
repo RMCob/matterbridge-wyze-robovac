@@ -10,3 +10,8 @@
 - Updated dependancies and shortened Description string in package.json
 - Reformatted platform.ts with **prettier**.
 
+## [1.0.1] - 2025-11-28
+
+### ** Changed **
+
+- Updated Matterbridge dependency requirement in README.

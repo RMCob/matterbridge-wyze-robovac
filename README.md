@@ -19,14 +19,14 @@ Python version must be >= 3.11.2.
 
 wyze-sdk version must be >= 2.2.0. Installation instructions are [here](https://github.com/shauntarves/wyze-sdk).
 
-matterbridge version must be >= 3.3.7 Installation instructions are [here](https://github.com/Luligu/matterbridge/blob/main/README.md).
+matterbridge version must be >= 3.4.0 Installation instructions are [here](https://github.com/Luligu/matterbridge/blob/main/README.md).
 
 Visit the Wyze developer API portal to generate an API ID/KEY: **https://developer-api-console.wyze.com/#/apikey/view**.
 This info is used in the Matterbridge Config settings for this plugin. See the **`Configuration`** section below. Be careful to check that the generated keys do **NOT** contain any 'shell' special characters like '*' or '|' (vertical bar). If they do, delete the keys (via the web browser interface) and regenerate them.
 
 ## Caveats
 
-- This plugin was developed and proved-in on a RPi 5 running the latest versions of Raspbian Linux (6.12.47+rpt-rpi-2712), and Matterbridge (3.3.8) running in 'bridge' mode and **NOT in a Docker container**. If you are running in ANY other environment (Windows, Mac OS, Docker, Home Assistant, Synergy NAS, etc.) and have any issues with installation and or running, you are on your own. If you are successful in alternate environments I welcome your feedback so I can document it here.
+- This plugin was developed and proved-in on a RPi 5 running the latest versions of Raspbian Linux (6.12.47+rpt-rpi-2712), and Matterbridge (3.4.0) running in 'bridge' mode and **NOT in a Docker container**. If you are running in ANY other environment (Windows, Mac OS, Docker, Home Assistant, Synergy NAS, etc.) and have any issues with installation and or running, you are on your own. If you are successful in alternate environments I welcome your feedback so I can document it here.
 
 - If you have multiple vacuums you will need to run multiple instances of Matterbridge, one per vacuums, whitelisting each vacuum to a particular instance. Since I only have one vacuum this situation has never been tested.
 
