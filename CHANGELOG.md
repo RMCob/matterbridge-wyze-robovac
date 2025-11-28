@@ -14,4 +14,4 @@
 
 ### ** Changed **
 
-- Updated Matterbridge dependency requirement in README. 
+- Updated Matterbridge dependency requirement in README.

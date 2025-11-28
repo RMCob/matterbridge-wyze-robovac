@@ -17,7 +17,7 @@ If you like this project and find it useful, please consider giving it a star on
 
 Python version must be >= 3.11.2.
 
-wyze-sdk version must be >= 2.2.0. Installation instructions are [here](https://github.com/shauntarves/wyze-sdk).
+wyze-sdk version must be >= 2.2.0.  Installation instructions are [here](https://github.com/shauntarves/wyze-sdk).
 
 matterbridge version must be >= 3.4.0. Installation instructions are [here](https://github.com/Luligu/matterbridge/blob/main/README.md).
 
